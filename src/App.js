@@ -1,25 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
+import React,{Component, useState} from 'react';
+import NavBar from './Components/NavBar'
+import PhotoBox from './Components/PhotoBox';
+import { BrowserRouter,  Routes, Route} from "react-router-dom";
+import PropTypes from 'prop-types'
+import About from './Components/About';
+import LoadingBar from 'react-top-loading-bar'
+import Review from './Components/review'
+import RequestNum from './Components/requestNum'
 
-function App() {
+
+export class App extends Component {
+
+
+  state = {
+    progress : 10
+  }
+
+  setProgress = (progress) =>  {
+    this.setState({progress: progress})
+  }
+  
+
+      render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+   <div>
+    <NavBar  />
+    <LoadingBar
+    height={3}
+    color='#fff'
+    progress={this.state.progress}
+    />
+    <Routes>
+    <Route exact path="/" element={<PhotoBox setProgress={this.setProgress}/>}> </Route>
+    <Route exact path="/about" element={<About setProgress={this.setProgress}/>}> </Route>
+    <Route exact path="/review" element={<Review setProgress={this.setProgress}/>}> </Route>
+    <Route exact path="/requestNum" element={<RequestNum setProgress={this.setProgress} />}> </Route>
+     </Routes>
+   </div>
+   </BrowserRouter>
   );
+  }
 }
 
-export default App;
+export default App
