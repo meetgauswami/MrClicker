@@ -43,8 +43,8 @@ export class requestNum extends Component {
          <div className="comment-section">
     <h2>Request For Number</h2>
     <div className="comment-form">
-      <label htmlFor="name">Name:</label>
-      <input required type="text" id="name" onChange={this.NamePost} placeholder="Enter your name" />
+      <label htmlFor="name">Email:</label>
+      <input required type="text" id="name" onChange={this.NamePost} placeholder="Enter your Email" />
       
       <label htmlFor="comment">Comment:</label>
       <textarea id="comment" rows="5" placeholder="Write your request here..."></textarea>
