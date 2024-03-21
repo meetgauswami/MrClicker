@@ -34,7 +34,7 @@ export class requestNum extends Component {
 
   render() {
     return (
-        <div>
+      <div>
           {this.state.valueName && this.state.alert && <Alert NameRequester={this.state.valueName}/>}
         <div className="img-name" style={{marginTop: '3rem'}}>
         <img onLoad={this.progressBar} src="https://i.pinimg.com/originals/40/07/3a/40073aaab270160f0a885cc2eaa9956e.png" alt="MrClicker" />

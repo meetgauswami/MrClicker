@@ -8,6 +8,7 @@ import About from './Components/About';
 import LoadingBar from 'react-top-loading-bar'
 import Review from './Components/review'
 import RequestNum from './Components/requestNum'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 export class App extends Component {
@@ -38,6 +39,7 @@ export class App extends Component {
     <Route exact path="/review" element={<Review setProgress={this.setProgress}/>}> </Route>
     <Route exact path="/requestNum" element={<RequestNum setProgress={this.setProgress} />}> </Route>
      </Routes>
+     <SpeedInsights/>
    </div>
    </BrowserRouter>
   );
