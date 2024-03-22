@@ -35,7 +35,7 @@ constructor() {
 
  async componentDidMount() {
   this.props.setProgress(10)
-   let url = `https://api.unsplash.com/search/photos?&page=${this.state.page}&query=growing&client_id=Qh8bYT354uu4iDaFdl8MgjujeDsblcybpuDamgidduU`;
+   let url = `https://api.unsplash.com/search/photos?&page=${this.state.page}&query=random&client_id=Qh8bYT354uu4iDaFdl8MgjujeDsblcybpuDamgidduU`;
   this.setState({loading: true})
    let data = await fetch(url);
   this.props.setProgress(50)
@@ -63,7 +63,7 @@ changeBySearch = async(event) => {
   let  inputData = (event.target.value)
   // let value = event.target.value
   if(inputData === "") {
-    inputData = "growing"
+    inputData = "random"
   }
   this.setState({
     value: event.target.value
@@ -86,13 +86,14 @@ changeBySearch = async(event) => {
 
 fetchMoreData = async () => {
   this.props.setProgress(10)
+  this.setState({value: "random"})
   this.setState({page: this.state.page + 1})
   if (
     !(this.state.page + 1 > Math.ceil(this.state.total / this.state.results)
     )
   ) {
     if(this.state.value === ""){
-      this.setState({value: "growing"})
+      this.setState({value: "random"})
     }
 
     let url = `https://api.unsplash.com/search/photos?&page=${this.state.page}&query=${this.state.value}&client_id=Qh8bYT354uu4iDaFdl8MgjujeDsblcybpuDamgidduU`;
@@ -126,7 +127,7 @@ render() {
           dataLength={this.state.results.length}
           next={this.fetchMoreData}
           hasMore={this.state.results.length !== this.state.total}
-          loader={!<Spinner />}
+          loader={<Spinner />}
         >
           <div className="container">
       <div className="row">
