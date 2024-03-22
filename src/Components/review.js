@@ -1,6 +1,7 @@
 import './review.css'
 import React, { Component } from 'react'
 
+
 export class review extends Component {
     progressBar = () => {
         this.props.setProgress(10)
@@ -12,6 +13,7 @@ export class review extends Component {
   render() {
     return (
       <div>
+  
          <div className="containers">
          <h1 className='mb-5 h1-review' style={{fontSize: '5rem', marginTop: '5rem'}}>Review</h1>
         <h2> Our Happy Clients </h2>

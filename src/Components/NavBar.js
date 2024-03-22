@@ -59,7 +59,10 @@ removeToggle =() => {
         <li className="nav-item">
           <Link className="nav-link" to='/about'  onClick={this.removeToggle}  aria-disabled="true">About</Link>
         </li>
-      </ul>
+        <li className="nav-item">
+          <Link className="nav-link" to='/login'  onClick={this.removeToggle}  aria-disabled="true">Log In/SignUp</Link>
+        </li>
+        </ul>
       
     </div>
   </div>

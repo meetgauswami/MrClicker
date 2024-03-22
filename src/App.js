@@ -3,12 +3,12 @@ import React,{Component, useState} from 'react';
 import NavBar from './Components/NavBar'
 import PhotoBox from './Components/PhotoBox';
 import { BrowserRouter,  Routes, Route} from "react-router-dom";
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import About from './Components/About';
 import LoadingBar from 'react-top-loading-bar'
 import Review from './Components/review'
 import RequestNum from './Components/requestNum'
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import LogIn from './Components/LogIn';
 
 
 export class App extends Component {
@@ -38,8 +38,8 @@ export class App extends Component {
     <Route exact path="/about" element={<About setProgress={this.setProgress}/>}> </Route>
     <Route exact path="/review" element={<Review setProgress={this.setProgress}/>}> </Route>
     <Route exact path="/requestNum" element={<RequestNum setProgress={this.setProgress} />}> </Route>
+    <Route exact path="/login" element={<LogIn  setProgress={this.setProgress} />}> </Route>
      </Routes>
-     <SpeedInsights/>
    </div>
    </BrowserRouter>
   );
