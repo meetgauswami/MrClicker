@@ -86,7 +86,6 @@ changeBySearch = async(event) => {
 
 fetchMoreData = async () => {
   this.props.setProgress(10)
-  this.setState({value: "random"})
   this.setState({page: this.state.page + 1})
   if (
     !(this.state.page + 1 > Math.ceil(this.state.total / this.state.results)
@@ -138,7 +137,8 @@ render() {
        imgUrl={element.urls.small}
         imageTabUrl={element.links.html}
          clickBy={element.user.social.twitter_username} 
-         profileUrl={element.user.links.html} profileImgUrl={element.user.profile_image.small}/>
+         profileUrl={element.user.links.html} 
+         profileImgUrl={element.user.profile_image.small} ImageDownload={element.links.download}/>
       </div>
         
       })}

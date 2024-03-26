@@ -8,6 +8,7 @@ export class review extends Component {
         setTimeout(() => {
         this.props.setProgress(100)
         }, 400);
+      document.title = "Mr Clicker - Review"
     }
     
   render() {

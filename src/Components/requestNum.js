@@ -25,7 +25,7 @@ export class requestNum extends Component {
     ]
 
     NamePost = (event) => {
-        let  inputData = (event.target.value)
+        // let  inputData = (event.target.value)
       this.setState({valueName: (event.target.value)})
     }
 

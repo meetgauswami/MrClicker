@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function PhotoBoxItem(props) {
-  let {title, description, imgUrl, imageTabUrl, clickBy, profileUrl, profileImgUrl} = props;
+  let {title, description, imgUrl, imageTabUrl, clickBy, profileUrl, profileImgUrl, ImageDownload} = props;
   // let articles = [
   //   author: "Solcyré Burga",
   //   title: "What to Know About the Cellular Outages Happening Across the U.S.",
@@ -26,7 +26,7 @@ export default function PhotoBoxItem(props) {
     <img style={{width: '25px', height:'25px', borderRadius: '50%', marginRight:'3px'}} src={profileImgUrl} alt="" />
     <a target='_blank' style={{fontSize: '15px',backgroundColor: 'grey',textDecoration: 'none', color: 'white', borderRadius: '4px',padding: '1px'}} href={profileUrl}>{clickBy} </a>
     </p>
-    <a href={imageTabUrl} target='_blank' className="btn btn-primary">VIsit Site</a>
+    <a download href={ImageDownload} target='_blank' className="btn btn-primary">Download</a>
   </div>
 </div>
     </div>
