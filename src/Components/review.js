@@ -35,13 +35,13 @@ export class review extends Component {
                         <li><i className="fa-solid fa-star"></i></li>
                         <li><i className="fa-solid fa-star"></i></li>
                         <li><i className="fa-solid fa-star"></i></li>
-                        <li><i className="fa-regular fa-star"></i></li>
-                        <li><i className="fa-regular fa-star"></i></li>
+                        <li><i className="fa-solid fa-star"></i></li>
+                        <li><i className="fa-solid fa-star"></i></li>
                     </ul>
                 </div>
                 <article>
                     <p className="review">not all of us are professional photographers of course which means we would on online libraries so that which makes MrClicker a safe haven for many content creators.<br/>love it!!</p>
-                    <p>Jan 01, 2023</p>
+                    <p>Jan 01, 2024</p>
                 </article>
             </div>
 
@@ -56,13 +56,13 @@ export class review extends Component {
                         <li><i className="fa-solid fa-star"></i></li>
                         <li><i className="fa-solid fa-star"></i></li>
                         <li><i className="fa-solid fa-star"></i></li>
-                        <li><i className="fa-regular fa-star"></i></li>
-                        <li><i className="fa-regular fa-star"></i></li>
+                        <li><i className="fa-solid fa-star"></i></li>
+                        <li><i className="fa-solid fa-star"></i></li>
                     </ul>
                 </div>
                 <article>
                     <p className="review">"MrClicker makes the image searching process much easier and this helps to get better images and royalty free digital content, Best stock image website ever, Thank You"</p>
-                    <p>Jan 01, 2023</p>
+                    <p>Fab 14, 2024</p>
                 </article>
             </div>
 
@@ -77,13 +77,13 @@ export class review extends Component {
                         <li><i className="fa-solid fa-star"></i></li>
                         <li><i className="fa-solid fa-star"></i></li>
                         <li><i className="fa-solid fa-star"></i></li>
-                        <li><i className="fa-regular fa-star"></i></li>
+                        <li><i className="fa-solid fa-star"></i></li>
                         <li><i className="fa-regular fa-star"></i></li>
                     </ul>
                 </div>
                 <article>
                     <p className="review">the library contains hundreds of high-quality photos that cover a wide range of niches and what makes it great source for artists and content creators alike who struggle to find high res images to use for their content.</p>
-                    <p>Jan 01, 2023</p>
+                    <p>March 7, 2024</p>
                 </article>
             </div>
         </div>
