@@ -131,7 +131,7 @@ render() {
           <div className="container">
       <div className="row">
       {!this.state.loading && this.state.results?.map((element)=> {
-       return <div className="col-md-4"  key={element.url} >
+       return <div className="col-md-4"  key={element.urls.small} >
       <PhotoBoxItem title={element.description ? element.description : element.alt_description} 
       description={element.alt_description}
        imgUrl={element.urls.small}

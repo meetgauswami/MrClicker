@@ -15,7 +15,6 @@ export class NavBar extends Component {
     event.target.classList.add("active");
   };
 removeToggle =() => {
-  console.log("clicked")
   document.querySelector(".navbar-toggler").classList.add("collapsed")
   document.querySelector(".navbar-collapse").classList.remove("show")
   // document.querySelectorAll(".nav-link").forEach((Link) => {

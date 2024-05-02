@@ -45,7 +45,7 @@ render(){
                     <img src="https://i.imghippo.com/files/bQ6Wk1710773557.jpg"alt="User 1" />
                 </div>
                 <div className="card-about-info">
-                    <h2 className="card-about-name">Meet Gauswmi</h2>
+                    <h2 className="card-about-name">Meet Gauswami</h2>
                     <p className="card-about-role">CEO and Founder</p>
                     <p className="card-about-email">gauswamimeet471@gmail.com</p>
                     <p><a type='button' href='mailto: gauswamimeet471@gmail.com' className="btn-readMore">Contact</a></p>

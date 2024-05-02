@@ -27,21 +27,21 @@ export class LogIn extends Component {
   render() {
     return (
       <div className='containerBody'>
-        <section class="wrapper">
-      <div class="form signup">
+        <section className="wrapper">
+      <div className="form signup">
         <header onClick={this.SignUpClick}> <img  onLoad={this.progressBar} style={{width: '4rem'}} src="https://i.pinimg.com/originals/40/07/3a/40073aaab270160f0a885cc2eaa9956e.png" alt="" /> Signup</header>
         <form action="#" className='loginForm'>
           <input type="text" placeholder="Full name" required />
           <input type="text" placeholder="Email address" required />
           <input type="password" placeholder="Password" required />
-          <div class="checkbox">
+          <div className="checkbox">
             <input type="checkbox" id="signupCheck" />
-            <label for="signupCheck">I accept all terms & conditions</label>
+            <label htmlFor="signupCheck">I accept all terms & conditions</label>
           </div>
           <Link style={{textDecoration: 'none'}}  type="submit" value="Signup">Signup</Link>
         </form>
       </div>
-      <div class="form login">
+      <div className="form login">
         <header onClick={this.LoginClick}>Login</header>
         <form action="#" className='loginForm'>
           <input type="text" placeholder="Email address" required />
