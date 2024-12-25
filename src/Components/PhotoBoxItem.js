@@ -14,7 +14,10 @@ export default function PhotoBoxItem(props) {
 
   let capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
- } 
+  } 
+  console.log(ImageDownload)
+  console.log(imgUrl)
+
   return (
     <div>
       <div className="card my-3">
@@ -26,7 +29,7 @@ export default function PhotoBoxItem(props) {
     <img style={{width: '25px', height:'25px', borderRadius: '50%', marginRight:'3px'}} src={profileImgUrl} alt="" />
     <a target='_blank' style={{fontSize: '15px',backgroundColor: 'grey',textDecoration: 'none', color: 'white', borderRadius: '4px',padding: '1px'}} href={profileUrl}>{clickBy} </a>
     </p>
-    <a download href={ImageDownload} target='_blank' className="btn btn-primary">Download</a>
+    <a download={`${title}.jpeg`} href={ImageDownload} className="btn btn-primary">Full Screen</a>
   </div>
 </div>
     </div>

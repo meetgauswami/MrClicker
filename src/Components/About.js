@@ -42,7 +42,7 @@ render(){
            
             <div className="card-about">
                 <div className="card-about-img">
-                    <img src="https://i.imghippo.com/files/bQ6Wk1710773557.jpg"alt="User 1" />
+                    <img src="https://i.imghippo.com/files/YwR9V1729245358.jpg"alt="User 1" />
                 </div>
                 <div className="card-about-info">
                     <h2 className="card-about-name">Meet Gauswami</h2>
@@ -70,7 +70,7 @@ render(){
            
             <div className="card-about">
                 <div className="card-about-img">
-                    <img src="https://i.imghippo.com/files/CGT6M1710773941.jpg" alt="User 3" />
+                    <img src="https://i.imghippo.com/files/fCxZ51729246205.jpg" alt="User 3" />
                 </div>
                 <div className="card-about-info">
                     <h2 className="card-about-name">Meet Gauswami</h2>
