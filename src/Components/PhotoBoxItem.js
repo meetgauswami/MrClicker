@@ -15,8 +15,8 @@ export default function PhotoBoxItem(props) {
   let capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   } 
-  console.log(ImageDownload)
-  console.log(imgUrl)
+  // console.log(ImageDownload)
+  // console.log(imgUrl)
 
   return (
     <div>
