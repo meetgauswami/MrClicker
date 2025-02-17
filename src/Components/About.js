@@ -42,10 +42,10 @@ render(){
            
             <div className="card-about">
                 <div className="card-about-img">
-                    <img src="https://i.imghippo.com/files/YwR9V1729245358.jpg"alt="User 1" />
+                    <img src="https://archive.org/download/instagram-plain-round/instagram%20dip%20in%20hair.jpg"alt="User 1" />
                 </div>
                 <div className="card-about-info">
-                    <h2 className="card-about-name">Meet Gauswami</h2>
+                    <h3 className="card-about-name">Meet Gauswami</h3>
                     <p className="card-about-role">CEO and Founder</p>
                     <p className="card-about-email">gauswamimeet471@gmail.com</p>
                     <p><a type='button' href='mailto: gauswamimeet471@gmail.com' className="btn-readMore">Contact</a></p>
@@ -56,10 +56,10 @@ render(){
            
             <div className="card-about">
                 <div className="card-about-img">
-                    <img src="https://i.imghippo.com/files/SvmCb1710773780.jpg" alt="User 2" />
+                    <img src="https://archive.org/download/instagram-plain-round/instagram%20dip%20in%20hair.jpg" alt="User 2" />
                 </div>
                 <div className="card-about-info">
-                    <h2 className="card-about-name">Vishal Gauswami</h2>
+                    <h3 className="card-about-name">Vishal Gauswami</h3>
                     <p className="card-about-role">Sponsor</p>
                     <p className="card-email">vishalgauswami1@gmail.com</p>
                     <p><a type='button' href='mailto: vishalgauswami1@gmail.com' className="btn-readMore">Contact</a></p>
@@ -70,10 +70,10 @@ render(){
            
             <div className="card-about">
                 <div className="card-about-img">
-                    <img src="https://i.imghippo.com/files/fCxZ51729246205.jpg" alt="User 3" />
+                    <img src="https://archive.org/download/instagram-plain-round/instagram%20dip%20in%20hair.jpg" alt="User 3" />
                 </div>
                 <div className="card-about-info">
-                    <h2 className="card-about-name">Meet Gauswami</h2>
+                    <h3 className="card-about-name">Meet Gauswami</h3>
                     <p className="card-about-role">Co-Founder</p>
                     <p className="card-email">gauswamimeet471@gmail.com</p>
                     <p><a type='button' href='mailto: gauswamimeet471@gmail.com' className="btn-readMore">Contact</a></p>
